@@ -4,10 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ErrorMsgComponent } from './compartilhado/error-msg/error-msg.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ErrorMsgComponent
   ],
   imports: [
     BrowserModule,

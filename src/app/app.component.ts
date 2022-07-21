@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  titulo = 'client-lembrete';
+export class AppComponent{
+  titulo = 'CRUD de lembrete com o Angular';
 }
